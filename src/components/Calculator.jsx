@@ -102,6 +102,7 @@ const Calculator = () => {
             />
             <input
               type="button"
+              onClick={clickHandle}
               value={"6"}
               className="cursor-pointer bg-gray-200 shadow-md w-12 h-12 rounded-lg text-center text-black font-medium"
             />
